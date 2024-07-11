@@ -1,9 +1,16 @@
 import * as React from "react";
-import { StyleSheet, View, Text } from "react-native";
+import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
 import { Image } from "expo-image";
+import { useNavigation } from "@react-navigation/native";
 import { Color, FontFamily, FontSize } from "../GlobalStyles";
 
 const AndroidLarge1 = () => {
+  const navigation = useNavigation();
+
+  const handlePress = () => {
+    navigation.navigate("AndroidLarge2");
+  };
+
   return (
     <View style={styles.androidLarge2}>
       <View style={styles.androidLarge2Child} />
@@ -17,20 +24,18 @@ const AndroidLarge1 = () => {
       />
       <Text style={[styles.aliaBhat, styles.looksTypo]}>Alia Bhat</Text>
 
-      
-      {/* <Image
-        style={styles.leftArrowIcon}
-        contentFit="cover"
-        source={require("../assets/left-arrow.png")}
-      /> */}
       <Text style={[styles.trendingLooks, styles.looksTypo]}>
         Trending Looks..
       </Text>
-      <Image
-        style={[styles.alia11Icon, styles.iconPosition]}
-        contentFit="cover"
-        source={require("../assets/alia1-1.png")}
-      />
+
+      <TouchableOpacity onPress={handlePress} style={[styles.iconPosition, styles.alia11IconWrapper]}>
+        <Image
+          style={styles.alia11Icon}
+          contentFit="cover"
+          source={require("../assets/alia1-1.png")}
+        />
+      </TouchableOpacity>
+
       <Image
         style={[styles.alia21Icon, styles.iconPosition]}
         contentFit="cover"
@@ -57,7 +62,6 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   iconPosition: {
-    height: 205,
     top: 386,
     position: "absolute",
   },
@@ -93,22 +97,20 @@ const styles = StyleSheet.create({
     width: 156,
     height: 59,
   },
-  leftArrowIcon: {
-    top: 9,
-    width: 42,
-    height: 60,
-    left: 10,
-    position: "absolute",
-  },
   trendingLooks: {
     top: 330,
     left: 4,
     width: 162,
     height: 37,
   },
-  alia11Icon: {
-    width: 123,
+  alia11IconWrapper: {
     left: 10,
+    width: 123,
+    height: 205,
+  },
+  alia11Icon: {
+    width: "100%",
+    height: "100%",
   },
   alia21Icon: {
     left: 143,

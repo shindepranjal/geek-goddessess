@@ -1,20 +1,29 @@
 import * as React from "react";
-import { StyleSheet, View, Text } from "react-native";
+import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
 import { Image } from "expo-image";
+import { useNavigation } from "@react-navigation/native";
 import { FontFamily, FontSize, Color } from "../GlobalStyles";
 
 const AndroidLarge3 = () => {
+  const navigation = useNavigation();
+
+  const handleNavigate = () => {
+    navigation.navigate("AndroidLarge4");
+  };
+
   return (
     <View style={styles.androidLarge4}>
       <View style={styles.androidLarge4Child} />
       <Text style={[styles.designersMarketplace, styles.nancyTyagiTypo]}>
         Designer’s Marketplace
       </Text>
-      <Image
-        style={styles.leftArrowIcon}
-        contentFit="cover"
-        source={require("../assets/left-arrow.png")}
-      />
+      <TouchableOpacity onPress={handleNavigate}>
+        <Image
+          style={styles.leftArrowIcon}
+          contentFit="cover"
+          source={require("../assets/left-arrow.png")}
+        />
+      </TouchableOpacity>
       <Image
         style={styles.nancy1Icon}
         contentFit="cover"

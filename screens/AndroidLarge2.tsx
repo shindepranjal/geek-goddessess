@@ -1,9 +1,16 @@
 import * as React from "react";
-import { StyleSheet, View, Text } from "react-native";
+import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
 import { Image } from "expo-image";
+import { useNavigation } from "@react-navigation/native";
 import { Color, FontFamily, FontSize } from "../GlobalStyles";
 
 const AndroidLarge2 = () => {
+  const navigation = useNavigation();
+
+  const handleNavigate = () => {
+    navigation.navigate("AndroidLarge3");
+  };
+
   return (
     <View style={styles.androidLarge3}>
       <View style={styles.androidLarge3Child} />
@@ -26,11 +33,14 @@ const AndroidLarge2 = () => {
         Look on Your Avatar
       </Text>
       <View style={[styles.rectangleView, styles.rectangleViewPosition]} />
-      <Text
-        style={[styles.askDesignerTo, styles.rectangleViewPosition]}
-      >{`Ask Designer to 
-Recreate`}</Text>
-      <Text style={[styles.trending, styles.trendingTypo]}>Trending</Text>
+      <TouchableOpacity onPress={handleNavigate}>
+        <Text
+          style={[styles.askDesignerTo, styles.rectangleViewPosition]}
+        >{`Ask Designer to \nRecreate`}</Text>
+      </TouchableOpacity>
+      <TouchableOpacity onPress={handleNavigate}>
+        <Text style={[styles.trending, styles.trendingTypo]}>Trending</Text>
+      </TouchableOpacity>
     </View>
   );
 };
