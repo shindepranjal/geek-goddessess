@@ -53,6 +53,28 @@ a] Press i to view on iOS simulator or follow the instructions here to run on a 
 ```sh
 a] Press a to view on Android Virtual Device or follow the instructions here to run on a physical device.
 ```
+
+# How is this project set up
+Currently, this project is split into several files to make prototyping easier. Current workflow:
+```sh
+
+webscraper.py --> csvDownload.py --> preprocessing.py --> FashionTrends.py
+```
+```sh
+webscraper.py webscrapes pinterest.com for images .
+```
+```sh
+csvDownload.py actually downloads the scraped images which are fed into.
+```
+```sh
+preprocessing.py to perform image preprocessing.
+```
+```sh
+Finally, FashionTrends.py is run to actually train the model and test the model.
+```
+
+
+
 ## Team Members:
 1] [Pranjali Shinde](https://www.linkedin.com/in/pranjali-shinde-257317226/)
 2] [Chetana Shinde](https://www.linkedin.com/in/chetana-shinde-382731229/)
