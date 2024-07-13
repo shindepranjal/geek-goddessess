@@ -15,7 +15,7 @@
 -
 
 ## Screenshots:
-![image](https://github.com/user-attachments/assets/f21572e8-02a6-4ec2-82b1-96e59a12d0d7)
+
 
 1]
 2]
