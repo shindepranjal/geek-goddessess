@@ -16,11 +16,8 @@
 
 ## Screenshots:
 
+![image](https://github.com/user-attachments/assets/a048dd96-0213-4303-895c-3a16e4259a2d)
 
-1]
-2]
-3
-4
 
 
 ## Tech Stack:
