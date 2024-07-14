@@ -79,7 +79,7 @@ Finally, Find_On_Myntra.ipynb is run to actually get the similar output for  pro
 
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-PRANJALI%20SHINDE-blue)](https://www.linkedin.com/in/pranjali-shinde-257317226/)<br>
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-CHETANA%20SHINDE-blue)](https://www.linkedin.com/in/chetana-shinde-382731229/)<br>
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-RUPALI%20SUARPATIL-blue)](https://www.linkedin.com/in/rupali-susar-patil-86b297228/)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-RUPALI%20SUSARPATIL-blue)](https://www.linkedin.com/in/rupali-susar-patil-86b297228/)
 
 
 ## Join the FashionHub Community
