@@ -82,8 +82,8 @@ Finally, Find_On_Myntra.ipynb is run to actually get the similar output for  pro
 
 # LinkedIn Profiles
 
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-PRIYANKA%20HOTCHANDANI-blue)](https://www.linkedin.com/in/priyankahotchandani)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-PRACHI%20RANDERIA-blue)](https://www.linkedin.com/in/prachiranderia)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-PRANJALI%20HOTSHINDE-blue)](https://www.linkedin.com/in/pranjali-shinde-257317226/)<br>
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-PRACHI%20RANDERIA-blue)](https://www.linkedin.com/in/prachiranderia)<br>
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-GAYATRI%20PATIL-blue)](https://www.linkedin.com/in/gayatripatil)
 
 
