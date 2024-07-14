@@ -5,27 +5,29 @@
 - Trend-Demand forecasting
 - Social Shopping Integration
 ## Welcome to FashionHub Marketplace!
-- _FashionHub Marketplace is a platform designed to bring fashion designers, influencers, and consumers together in one vibrant community. Our main goal is to make shopping for fashion fun, interactive, and trendy!_
+- _FashionHub Marketplace is a platform designed to bring fashion designers, influencers, and consumers together in one vibrant community. Our main goal is to make shopping interactive, trendy and fun!_
 
 ## Features:
--
--
--
--
--
+- Trend Spotting: Real-time updates on trending fashion looks.
+- Influencer and Designer Engagement: Profiles showcasing latest looks and custom inquiries.
+- Community Interaction: User reviews, ratings, and comments.
+- Notifications: Alerts for new trends, updates, and promotions.
 
 ## Screenshots:
 
 ![image](https://github.com/user-attachments/assets/a048dd96-0213-4303-895c-3a16e4259a2d)
+![Myntra](https://github.com/user-attachments/assets/a9a9f179-7c62-4327-8963-5d9a8865ed49)
+
 
 
 
 ## Tech Stack:
 
-- Frontend: React Native
-- Backend: Node.js, Express
-- Database: MongoDB
-- AR/VR: DeepAR, Three.js, Blender
+- Frontend: React Native,expo
+- Image Recognition: CNN,DeepImageSearch ,VGG19.
+- Desiginig: Figma
+- WebScraping: Selenium
+- API: Fashion NewsAPI, Glamour API
 
 
 ## Getting Started
@@ -55,22 +57,20 @@ a] Press a to view on Android Virtual Device or follow the instructions here to 
 ```
 
 # How is this project set up
-Currently, this project is split into several files to make prototyping easier. Current workflow:
+Currently, this project is split into several parts to make prototyping easier. Current workflow:
 ```sh
 
-webscraper.py --> csvDownload.py --> preprocessing.py --> FashionTrends.py
+webscraping --> Image Downloading --> preprocessing--> Model-dataset
 ```
 ```sh
-webscraper.py webscrapes pinterest.com for images .
+webscraper_final.ipynb webscrapes pinterest.com for images .
 ```
 ```sh
-csvDownload.py actually downloads the scraped images which are fed into.
+webscraper_final.ipynb actually downloads the scraped images which are fed into.
 ```
+
 ```sh
-preprocessing.py to perform image preprocessing.
-```
-```sh
-Finally, FashionTrends.py is run to actually train the model and test the model.
+Finally, Find_On_Myntra.ipynb is run to actually get the similar output for  provided input.
 ```
 
 
@@ -79,6 +79,13 @@ Finally, FashionTrends.py is run to actually train the model and test the model.
 1] [Pranjali Shinde](https://www.linkedin.com/in/pranjali-shinde-257317226/)
 2] [Chetana Shinde](https://www.linkedin.com/in/chetana-shinde-382731229/)
 3] [Rupali Susarpatil](https://www.linkedin.com/in/rupali-susar-patil-86b297228/)
+
+# LinkedIn Profiles
+
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-PRIYANKA%20HOTCHANDANI-blue)](https://www.linkedin.com/in/priyankahotchandani)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-PRACHI%20RANDERIA-blue)](https://www.linkedin.com/in/prachiranderia)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-GAYATRI%20PATIL-blue)](https://www.linkedin.com/in/gayatripatil)
+
 
 ## Join the FashionHub Community
 - _Ready to revolutionize your fashion shopping experience? Join us at FashionHub Marketplace and be a part of the future of fashion!_ 
