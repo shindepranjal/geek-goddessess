@@ -75,20 +75,16 @@ Finally, Find_On_Myntra.ipynb is run to actually get the similar output for  pro
 
 
 
-## Team Members:
-1] [Pranjali Shinde](https://www.linkedin.com/in/pranjali-shinde-257317226/)
-2] [Chetana Shinde](https://www.linkedin.com/in/chetana-shinde-382731229/)
-3] [Rupali Susarpatil](https://www.linkedin.com/in/rupali-susar-patil-86b297228/)
+# Team Members
 
-# LinkedIn Profiles
-
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-PRANJALI%20HOTSHINDE-blue)](https://www.linkedin.com/in/pranjali-shinde-257317226/)<br>
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-PRACHI%20RANDERIA-blue)](https://www.linkedin.com/in/prachiranderia)<br>
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-GAYATRI%20PATIL-blue)](https://www.linkedin.com/in/gayatripatil)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-PRANJALI%20SHINDE-blue)](https://www.linkedin.com/in/pranjali-shinde-257317226/)<br>
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-CHETANA%20SHINDE-blue)](https://www.linkedin.com/in/chetana-shinde-382731229/)<br>
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-RUPALI%20SUARPATIL-blue)](https://www.linkedin.com/in/rupali-susar-patil-86b297228/)
 
 
 ## Join the FashionHub Community
-- _Ready to revolutionize your fashion shopping experience? Join us at FashionHub Marketplace and be a part of the future of fashion!_ 
+- _Ready to revolutionize your fashion shopping experience? Join us at FashionHub Marketplace and be a part of the future of fashion!_
+  
 ## Acknowledgments:
  - A big thank you to Myntra Hackathon for inspiring this project.
 
