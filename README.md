@@ -23,7 +23,7 @@
 
 ## Tech Stack:
 
-- Frontend: React Native,expo
+- Frontend: React Native with expo
 - Image Recognition: CNN,DeepImageSearch ,VGG19.
 - Desiginig: Figma
 - WebScraping: Selenium
