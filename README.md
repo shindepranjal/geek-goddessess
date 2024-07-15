@@ -1,6 +1,6 @@
 # FashionHub Marketplace
-## _Myntra Hackathon_
-## Team Name:- Geek Goddessess
+## _Myntra HackerRamp: WeForShe 2024_
+## Team Name:- Geek Goddesses
 # Theme: 
 - Trend-Demand forecasting
 - Social Shopping Integration
